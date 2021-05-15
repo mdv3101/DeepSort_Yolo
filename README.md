@@ -1,9 +1,8 @@
-# project-blindpc
-SIMPLE ONLINE AND REALTIME TRACKING WITH A DEEP ASSOCIATION METRIC (Deep Sort)
+# Real Time Person Tracking using DeepSort and Yolo_v4
 
-Paper Link: [arxiv](https://arxiv.org/pdf/1703.07402.pdf)
+For object tracking, this work uses SIMPLE ONLINE AND REALTIME TRACKING WITH A DEEP ASSOCIATION METRIC (Deep Sort) | Paper Link: [arxiv](https://arxiv.org/pdf/1703.07402.pdf)
 
-For real-time object detection and tracking, open-source Yolo code by AlexeyAB is used ([link](https://github.com/AlexeyAB/darknet))
+For real-time object detection, open-source Yolo code by AlexeyAB is used ([link](https://github.com/AlexeyAB/darknet))
 
 ## Dataset
 The dataset used for this project is Multi Object Tracking(MOT16). It can be downloaded from the [link](https://motchallenge.net/data/MOT16/)<br>
@@ -73,3 +72,6 @@ OR<br>
      `python yolo_with_deepsort.py`
  
   It will run the darknet on the `yolo_person.mp4` in videos folder and generate `Deep_sort_output.mp4` as output.
+
+Disclaimer: <br>
+This project was done as a part of the course CSE578: Computer Vision, Spring 2021, IIIT-Hyderabad.
